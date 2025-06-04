@@ -118,7 +118,7 @@ hr {
 }
 
 .about-portrait {
-  background: url(assets/portrait.jpg);
+  background: url(assets/portraitv2.jpg);
   background-color: #e0f68a;
   background-blend-mode: multiply;
   background-size: cover;
@@ -224,6 +224,10 @@ hr {
 
 .project-img6 {
   background-image: url(assets/passwordgenerator.png);
+}
+
+.project-img7 {
+  background-image: url(assets/acnevision.png);
 }
 
 .project-sub {
