@@ -375,6 +375,15 @@ footer {
     max-width: 600px;
     margin: 0 auto;
   }
+
+  #backToTop:hover {
+    box-shadow: #d6f360 5px 5px 0px;
+    transform: translate3d(0px, -1px, 0px);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    cursor: pointer;
+    border: solid 3px #d6f360;
+    background: url("assets/arrowhead-up-hov.png") no-repeat center;
+  }
 }
 
 #backToTop {
@@ -393,7 +402,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("assets/arrowhead-up.png") no-repeat center;
+  background: #0f161f url("assets/arrowhead-up.png") no-repeat center;
 
   transform: translateY(80px);
   opacity: 0;
@@ -416,10 +425,5 @@ footer {
 }
 
 #backToTop:hover {
-  box-shadow: #d6f360 5px 5px 0px;
-  transform: translate3d(0px, -1px, 0px);
-  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-  cursor: pointer;
-  border: solid 3px #d6f360;
-  background: url("assets/arrowhead-up-hov.png") no-repeat center;
+  box-shadow: none;
 }
