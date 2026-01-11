@@ -306,6 +306,10 @@ footer {
   color: #99a4b1;
 }
 
+#backToTop:hover {
+  box-shadow: none;
+}
+
 @media only screen and (max-width: 420px) {
   hr {
     display: none;
@@ -383,6 +387,7 @@ footer {
     cursor: pointer;
     border: solid 3px #d6f360;
     background: url("assets/arrowhead-up-hov.png") no-repeat center;
+    background-size: 85%;
   }
 }
 
@@ -391,9 +396,10 @@ footer {
   bottom: 25px;
   right: 25px;
 
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 100;
+  padding: 0px;
 
   background-color: transparent;
   border: solid 3px #889ab1;
@@ -403,6 +409,7 @@ footer {
   align-items: center;
   justify-content: center;
   background: #0f161f url("assets/arrowhead-up.png") no-repeat center;
+  background-size: 80%;
 
   transform: translateY(80px);
   opacity: 0;
@@ -414,16 +421,4 @@ footer {
   transform: translateY(0);
   opacity: 1;
   visibility: visible;
-}
-
-#backToTop.hide {
-  transform: translateY(80px);
-  opacity: 0;
-  visibility: hidden;
-
-  transition: transform 0.4s ease, opacity 0.4s ease;
-}
-
-#backToTop:hover {
-  box-shadow: none;
 }
